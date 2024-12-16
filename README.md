@@ -18,21 +18,24 @@ To set up and run the backend for FoodLens, follow these simple steps:
 1. **Clone the GitHub Repository**: First, clone the repository containing the project:
    
    ```
-   git clone https://github.com/mianhamzaalam/food-lens.git   ```
+   git clone https://github.com/mianhamzaalam/food-lens.git 
 
 3. **Navigate to the Backend Directory**: Go to the backend directory where the server-side code is stored:
    
    ```
-   cd backend```
+   cd backend
 
 3. **Install Required Dependencies**: Install all the necessary Python dependencies by using the following command:
 
    ```
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
    
 4. **Run the Backend Server**: Start the backend server using Uvicorn:
 
    ```
-   uvicorn recipe-app:app --reload```
+   uvicorn recipe-app:app --reload
    
 This will start the FastAPI server, and the --reload option ensures that any changes you make to the code will automatically be reflected in the running application.
+
+## Project Significance: AI in Recipe Creation
+The FoodLens project highlights the transformative role of Artificial Intelligence (AI) in the food and recipe domain. By combining machine learning models for language processing, image recognition, and ingredient detection, this application brings together the power of AI to assist in recipe creation and customization, making cooking more personalized, efficient, and accessible
