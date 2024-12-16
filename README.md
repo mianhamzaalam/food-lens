@@ -16,5 +16,23 @@ The app also incorporates Vision Transformers (ViT) to analyze images of recipes
 To set up and run the backend for FoodLens, follow these simple steps:
 
 1. **Clone the GitHub Repository**: First, clone the repository containing the project:
-   ```bash
+   
+   ```
    git clone https://github.com/mianhamzaalam/food-lens.git   ```
+
+3. **Navigate to the Backend Directory**: Go to the backend directory where the server-side code is stored:
+   
+   ```
+   cd backend```
+
+3. **Install Required Dependencies**: Install all the necessary Python dependencies by using the following command:
+
+   ```
+   pip install -r requirements.txt```
+   
+4. **Run the Backend Server**: Start the backend server using Uvicorn:
+
+   ```
+   uvicorn recipe-app:app --reload```
+   
+This will start the FastAPI server, and the --reload option ensures that any changes you make to the code will automatically be reflected in the running application.
