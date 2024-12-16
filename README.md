@@ -33,7 +33,7 @@ To set up and run the backend for FoodLens, follow these simple steps:
 4. **Run the Backend Server**: Start the backend server using Uvicorn:
 
    ```
-   uvicorn recipe-app:app --reload
+   uvicorn recipe_app:app --reload
    
 This will start the FastAPI server, and the --reload option ensures that any changes you make to the code will automatically be reflected in the running application.
 
